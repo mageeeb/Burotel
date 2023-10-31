@@ -4,18 +4,41 @@
 
 {% block body %}
     <!-- ***** Main Banner Area Start ***** -->
+{#    <section class="section main-banner" id="top" data-section="section1">#}
+{#        <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/single-meeting.jpg') }}" alt="Online Teaching"></a>#}
+{#        <div class="video-overlay header-text">#}
+{#            <div class="container">#}
+{#                <div class="row">#}
+{#                    <div class="col-lg-12">#}
+{#                        <div class="caption">#}
+{#                            <h2>La médiation, un autre regard sur le conflit</h2>#}
+{#                            <p>Ancien avocat, j’ai réalisé qu’il était possible de résoudre les conflits autrement, en dehors des tribunaux, grâce à la médiation. Aujourd’hui <a rel="nofollow" href="#" target="_blank">médiateur agréé</a>, je suis convaincue qu’un bon accord vaut mieux que de longues et coûteuses procédures judiciaires à l’issue incertaine..</p>#}
+{#                            <button type="button" class="btn btn-primary btn-sm">#}
+{#                                <div class="scroll-to-section"><a href="#contact">En savoir plus!</a></div>#}
+{#                            </button>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </section>#}
+    <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
-        <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/meeting-01.jpg') }}" alt="Online Teaching"></a>
+        <video autoplay muted loop id="bg-video">
+            <source src="{{ asset('assets/assets/images/La médiation familiale.mp4') }}" type="video/mp4" />
+        </video>
+{#             <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/accueil.jpg') }}" alt="Online Teaching"></a>#}
+
         <div class="video-overlay header-text">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="caption">
-                            <h2>La médiation, un autre regard sur le conflit</h2>
-                            <p>Ancien avocat, j’ai réalisé qu’il était possible de résoudre les conflits autrement, en dehors des tribunaux, grâce à la médiation. Aujourd’hui <a rel="nofollow" href="#" target="_blank">médiateur agréé</a>, je suis convaincue qu’un bon accord vaut mieux que de longues et coûteuses procédures judiciaires à l’issue incertaine. . Médiateur agréé en matière familiale, <a rel="nofollow" href="#" target="_blank">sociale</a>, <a rel="nofollow" href="#" target="_blank">civile</a> et <a rel="nofollow" href="#" target="_blank">commerciale</a>, je vous reçois dans un cadre sécurisé et bienveillant et vous aide à apaiser les tensions et les conflits quelques soient vos difficultés, séparation, divorce par consentement mutuel, problème de communication ou tout conflit au sein de la Famille,  votre travail, avec vos voisins, votre associé… .</p>
-                            <button type="button" class="btn btn-primary btn-sm">
-                                <div class="scroll-to-section"><a href="#contact">En savoir plus!</a></div>
-                            </button>
+                            <h2>La médiation, un autre regard sur le conflit</h2>#}
+                            <p>Ancien avocat, j’ai réalisé qu’il était possible de résoudre les conflits autrement, en dehors des tribunaux, grâce à lamédiation. Aujourd’hui <a rel="nofollow" href="#" target="_blank">médiateur agréé</a>, je suis convaincue qu’un bonaccord vaut mieux que de longues et coûteuses procédures judiciaires à l’issue incertaine..</p>
+                            <div class="main-button-red">
+                                <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,7 +152,6 @@
                             <div class="meeting-item">
                                 <div class="thumb">
                                     <div class="price">
-                                        <span>$22.00</span>
                                     </div>
                                     <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/1.jpg') }}" alt="New Lecturer Meeting"></a>
                                 </div>
@@ -144,7 +166,7 @@
                             <div class="meeting-item">
                                 <div class="thumb">
                                     <div class="price">
-                                        <span>$36.00</span>
+
                                     </div>
                                     <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/2.jpg') }}" alt="Online Teaching"></a>
                                 </div>
@@ -159,7 +181,7 @@
                             <div class="meeting-item">
                                 <div class="thumb">
                                     <div class="price">
-                                        <span>$14.00</span>
+
                                     </div>
                                     <a  href="meeting-details.html"><img src="{{ asset('assets/assets/images/3.jpg') }}" alt="Higher Education"></a>
                                 </div>
@@ -177,7 +199,7 @@
                             <div class="meeting-item">
                                 <div class="thumb">
                                     <div class="price">
-                                        <span>$48.00</span>
+
                                     </div>
                                     <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/4.jpg') }}" alt="Student Training"></a>
                                 </div>
@@ -195,7 +217,7 @@
                             <div class="meeting-item">
                                 <div class="thumb">
                                     <div class="price">
-                                        <span>$48.00</span>
+
                                     </div>
                                     <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/5.jpg') }}" alt="Student Training"></a>
                                 </div>
@@ -213,7 +235,7 @@
                             <div class="meeting-item">
                                 <div class="thumb">
                                     <div class="price">
-                                        <span>$48.00</span>
+
                                     </div>
                                     <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/6.jpg') }}" alt="Student Training"></a>
                                 </div>
