@@ -1,20 +1,98 @@
-<!DOCTYPE html>
+{% extends 'layout/base.html.twig' %}
 
-<title>Hello SeparatioController!</title>
+{% block title %}Médiateur & séparation{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+<section class="heading-page header-text" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+            </div>
+        </div>
+    </div>
+</section>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'E:/stage_Burotel/projet_bur/src/Controller/SeparatioController.php'|file_link(0) }}">src/Controller/SeparatioController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'E:/stage_Burotel/projet_bur/templates/separatio/index.html.twig'|file_link(0) }}">templates/separatio/index.html.twig</a></code></li>
-    </ul>
-</div>
+    <section class="meetings-page" id="meetings">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="meeting-single-item">
+                                <div class="down-content">
+                                    <a href="meeting-details.html"><h4>Médiation & séparation</h4></a>
+                                    {#                                <p>Recreio dos Bandeirantes, Rio de Janeiro - RJ, 22795-008, Brazil</p>#}
+                                    <p class="description">
+                                        Vous souhaitez vous séparer et voulez que cela se passe le mieux possible pour vous et vos enfants.<br><br>
+
+                                        Quelle que soit la durée de votre relation, de votre mariage, à un moment donné, vous vous êtes aimés et respectés.<br><br>
+
+                                        La médiation familiale vous permet de trouver une issue à cette situation douloureuse sans vous déchirer et tenter d’obtenir des solutions durables pour vos futures relations, en préservant vos enfants.<br><br>
+
+                                        Le médiateur va accueillir les émotions, encourager l’écoute, la compréhension réciproque, pour que vous puissiez comprendre ce qui se joue entre vous et retrouver une communication apaisée et respectueuse.<br><br>
+
+                                        Chacun va pouvoir s’exprimer librement, se sentir écouté et compris dans ses attentes.<br><br>
+
+                                        Le médiateur vous aide à vous mettre d’accord sur tous les aspects de votre séparation ou de votre divorce par consentement mutuel en tenant compte des besoins de chacun : partage du patrimoine commun, contributions financières, autorité parentale, hébergement des enfants…<br><br>
+
+                                        Sa présence neutre et bienveillante favorise la mise en place des règles concrètes de fonctionnement et de communication qui vous facilitent la vie, qui apaisent votre quotidien et vous permettent d’envisager l’avenir plus sereinement.<br><br>
+
+                                        Votre séparation sera réglée de manière respectueuse, rapidement et à moindre coût.<br><br>
+
+                                        Grâce à la médiation familiale vous restez maître de votre décision en évitant un jugement imposé, aléatoire ou insatisfaisant et les blessures d’une longue procédure.<br><br>
+
+                                        Au terme de la médiation, vous pourrez repartir avec un accord clair et sur mesure, votre accord, que vous choisirez ou non de faire homologuer par le tribunal. En cas d’homologation, votre accord aura alors la valeur d’un jugement.<br><br>
+
+                                        Si vous êtes mariés, l’accord de médiation servira de base pour la rédaction de vos conventions de divorce par consentement mutuel.<br><br>
+
+                                        La médiation familiale permet également aux couples déjà séparés ou divorcés d’ajuster leurs accords passés en privilégiant l’écoute et les besoins de chacun et de prévenir de futurs conflits.<br><br>
+                                    </p>
+                                    {#                                <div class="row">#}
+                                    {#                                    <div class="col-lg-4">#}
+                                    {#                                        <div class="hours">#}
+                                    {#                                            <h5>Hours</h5>#}
+                                    {#                                            <p>Monday - Friday: 07:00 AM - 13:00 PM<br>Saturday- Sunday: 09:00 AM - 15:00 PM</p>#}
+                                    {#                                        </div>#}
+                                    {#                                    </div>#}
+                                    {#                                    <div class="col-lg-4">#}
+                                    {#                                        <div class="location">#}
+                                    {#                                            <h5>Location</h5>#}
+                                    {#                                            <p>Recreio dos Bandeirantes,#}
+                                    {#                                                <br>Rio de Janeiro - RJ, 22795-008, Brazil</p>#}
+                                    {#                                        </div>#}
+                                    {#                                    </div>#}
+                                    {#                                    <div class="col-lg-4">#}
+                                    {#                                        <div class="book now">#}
+                                    {#                                            <h5>Book Now</h5>#}
+                                    {#                                            <p>010-020-0340<br>090-080-0760</p>#}
+                                    {#                                        </div>#}
+                                    {#                                    </div>#}
+                                    <div class="col-lg-12">
+{#                                        <div class="share">#}
+{#                                            <h5>Share:</h5>#}
+{#                                            <ul>#}
+{#                                                <li><a href="#">Facebook</a>,</li>#}
+{#                                                <li><a href="#">Twitter</a>,</li>#}
+{#                                                <li><a href="#">Linkedin</a>,</li>#}
+{#                                                <li><a href="#">Behance</a></li>#}
+{#                                            </ul>#}
+{#                                        </div>#}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+{#                    <div class="col-lg-12">#}
+{#                        <div class="main-button-red">#}
+{#                            <a href="meetings.html">Contactez-moi</a>#}
+{#                        </div>#}
+{#                    </div>#}
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
 {% endblock %}
