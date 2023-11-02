@@ -118,6 +118,19 @@ img {
   overflow: hidden;
   align-items: center;
 }
+.image{
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.imgs{
+  width: 80%;
+  overflow: hidden;
+  align-items: center;
+}
 
 /*
 ---------------------------------------------
@@ -290,7 +303,7 @@ header
 }
 
 .header-area .main-nav .logo {
-  line-height: 120px;
+  line-height: 100px;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -335,8 +348,8 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 13px;
   text-transform: uppercase;
   color: black;
   -webkit-transition: all 0.3s ease 0s;
@@ -368,7 +381,7 @@ header
 .header-area .main-nav .nav li.has-sub:after {
   font-family: FontAwesome;
   content: "\f107";
-  font-size: 12px;
+  font-size: 8px;
   color: #fff;
   position: absolute;
   right: 5px;

@@ -3,31 +3,13 @@
 {% block title %}Médiateur Agréé{% endblock %}
 
 {% block body %}
-    <!-- ***** Main Banner Area Start ***** -->
-{#    <section class="section main-banner" id="top" data-section="section1">#}
-{#        <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/single-meeting.jpg') }}" alt="Online Teaching"></a>#}
-{#        <div class="video-overlay header-text">#}
-{#            <div class="container">#}
-{#                <div class="row">#}
-{#                    <div class="col-lg-12">#}
-{#                        <div class="caption">#}
-{#                            <h2>La médiation, un autre regard sur le conflit</h2>#}
-{#                            <p>Ancien avocat, j’ai réalisé qu’il était possible de résoudre les conflits autrement, en dehors des tribunaux, grâce à la médiation. Aujourd’hui <a rel="nofollow" href="#" target="_blank">médiateur agréé</a>, je suis convaincue qu’un bon accord vaut mieux que de longues et coûteuses procédures judiciaires à l’issue incertaine..</p>#}
-{#                            <button type="button" class="btn btn-primary btn-sm">#}
-{#                                <div class="scroll-to-section"><a href="#contact">En savoir plus!</a></div>#}
-{#                            </button>#}
-{#                        </div>#}
-{#                    </div>#}
-{#                </div>#}
-{#            </div>#}
-{#        </div>#}
-{#    </section>#}
+
     <!-- ***** Main Banner Area Start ***** -->
     <section class="section main-banner" id="top" data-section="section1">
-        <video autoplay muted loop id="bg-video">
-            <source src="{{ asset('assets/assets/images/La médiation familiale.mp4') }}" type="video/mp4" />
-        </video>
-{#             <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/accueil.jpg') }}" alt="Online Teaching"></a>#}
+{#        <video autoplay muted loop id="bg-video">#}
+{#            <source src="{{ asset('assets/assets/images/La médiation familiale.mp4') }}" type="video/mp4" />#}
+{#        </video>#}
+             <a href="meeting-details.html"><img class="image" src="{{ asset('assets/assets/images/meeting-01.jpg') }}" alt="Online Teaching"></a>
 
         <div class="video-overlay header-text">
             <div class="container">
@@ -37,7 +19,7 @@
                             <h2>La médiation, un autre regard sur le conflit</h2>
                             <p>Ancien avocat, j’ai réalisé qu’il était possible de résoudre les conflits autrement, en dehors des tribunaux, grâce à lamédiation. Aujourd’hui <a rel="nofollow" href="#" target="_blank">médiateur agréé</a>, je suis convaincue qu’un bonaccord vaut mieux que de longues et coûteuses procédures judiciaires à l’issue incertaine..</p>
                             <div class="main-button-red">
-                                <div class="scroll-to-section"><a href="#contact">En savoir plus!</a></div>
+                                <div class="scroll-to-section"><a href="#contact">Qui suis-je ?</a></div>
                             </div>
                         </div>
                     </div>
@@ -139,10 +121,10 @@
 {#                            <li><a href="#">Nam et condimentum</a></li>#}
 {#                            <li><a href="#">Phasellus nec sapien</a></li>#}
 {#                        </ul>#}
-                        <p>Ancien avocat, j’ai réalisé qu’il était possible de résoudre les conflits autrement, en dehors des tribunaux, grâce à la médiation. Aujourd’hui médiateur agréé, je suis convaincue qu’un bon accord vaut mieux que de longues et coûteuses procédures judiciaires à l’issue incertaine. <br> <br> La médiation est un processus reconnu par la loi, volontaire, structuré et confidentiel mené par un tiers (le médiateur) qui aide les personnes à mieux communiquer, communiquer à nouveau et trouver par elles-mêmes une solution au conflit qui les oppose en tenant compte des besoins de chacun.<br><br> Professionnel neutre et impartial, le médiateur ne juge pas, ne décide pas ; il est le garant du cadre de la médiation. <br><br> Quand le processus aboutit à un accord et que le médiateur est agréé, les personnes sont libres de demander au juge compétent de l’homologuer; l’accord aura alors la valeur d’un jugement. <br><br>La médiation peut aussi aboutir à un accord partiel ou simplement restaurer le dialogue. <br><br> Médiateur agréé en matière familiale, sociale, civile et commerciale, je vous reçois dans un cadre sécurisé et bienveillant et vous aide à apaiser les tensions et les conflits quelques soient vos difficultés, séparation, divorce par consentement mutuel, problème de communication ou tout conflit au sein de la Famille,  votre travail, avec vos voisins, votre associé…</p>
+                        <p> La médiation est un processus reconnu par la loi, volontaire, structuré et confidentiel mené par un tiers (le médiateur) qui aide les personnes à mieux communiquer, communiquer à nouveau et trouver par elles-mêmes une solution au conflit qui les oppose en tenant compte des besoins de chacun.<br><br> Professionnel neutre et impartial, le médiateur ne juge pas, ne décide pas ; il est le garant du cadre de la médiation. <br><br> Quand le processus aboutit à un accord et que le médiateur est agréé, les personnes sont libres de demander au juge compétent de l’homologuer; l’accord aura alors la valeur d’un jugement. <br><br>La médiation peut aussi aboutir à un accord partiel ou simplement restaurer le dialogue. <br><br> Médiateur agréé en matière familiale, sociale, civile et commerciale, je vous reçois dans un cadre sécurisé et bienveillant et vous aide à apaiser les tensions et les conflits quelques soient vos difficultés, séparation, divorce par consentement mutuel, problème de communication ou tout conflit au sein de la Famille,  votre travail, avec vos voisins, votre associé…</p>
 
                         <div class="main-button-red">
-                            <a href="meetings.html">All Upcoming Meetings</a>
+                            <a href="meetings.html">Contacter-moi</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +135,7 @@
                                 <div class="thumb">
                                     <div class="price">
                                     </div>
-                                    <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/1.jpg') }}" alt="New Lecturer Meeting"></a>
+                                    <a href="{{ path('app_couple') }}"><img class="imgs" src="{{ asset('assets/assets/images/1.jpg') }}" alt="New Lecturer Meeting"></a>
                                 </div>
 
                                 <div class="down-content">
@@ -168,7 +150,7 @@
                                     <div class="price">
 
                                     </div>
-                                    <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/2.jpg') }}" alt="Online Teaching"></a>
+                                    <a href="{{ path('app_separatio') }}"><img class="imgs" src="{{ asset('assets/assets/images/2.jpg') }}" alt="Online Teaching"></a>
                                 </div>
 
                                 <div class="down-content">
@@ -183,7 +165,7 @@
                                     <div class="price">
 
                                     </div>
-                                    <a  href="meeting-details.html"><img src="{{ asset('assets/assets/images/3.jpg') }}" alt="Higher Education"></a>
+                                    <a  href="meeting-details.html"><img class="imgs" src="{{ asset('assets/assets/images/3.jpg') }}" alt="Higher Education"></a>
                                 </div>
 
                                 <div class="down-content">
@@ -201,7 +183,7 @@
                                     <div class="price">
 
                                     </div>
-                                    <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/4.jpg') }}" alt="Student Training"></a>
+                                    <a href="meeting-details.html"><img class="imgs" src="{{ asset('assets/assets/images/4.jpg') }}" alt="Student Training"></a>
                                 </div>
 
                                 <div class="down-content">
@@ -219,7 +201,7 @@
                                     <div class="price">
 
                                     </div>
-                                    <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/5.jpg') }}" alt="Student Training"></a>
+                                    <a href="meeting-details.html"><img class="imgs" src="{{ asset('assets/assets/images/5.jpg') }}" alt="Student Training"></a>
                                 </div>
 
                                 <div class="down-content">
@@ -237,7 +219,7 @@
                                     <div class="price">
 
                                     </div>
-                                    <a href="meeting-details.html"><img src="{{ asset('assets/assets/images/6.jpg') }}" alt="Student Training"></a>
+                                    <a href="meeting-details.html"><img class="imgs" src="{{ asset('assets/assets/images/6.jpg') }}" alt="Student Training"></a>
                                 </div>
 
                                 <div class="down-content">
