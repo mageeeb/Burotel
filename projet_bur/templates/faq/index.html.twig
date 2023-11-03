@@ -1,0 +1,107 @@
+{% extends 'layout/base.html.twig' %}
+
+{% block title %}Médiateur Agréé{% endblock %}
+
+{% block body %}
+    <section class="apply-now" id="apply">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="item">
+                                <h3>LA MEDIATION</h3>
+                                <p>Gérer le conflit autrement...<br><br> Annabel Fava Médiatrice</p><br>
+                                <li><a style="color: white" href="tel:+32494673723"><i class="fa fa-phone"></i> +32 494 67 37 23</a></li><br>
+                                <li><a style="color: white" href="mailto:annabel.fava@gmail.com"><i class="fa fa-envelope"></i>  annabel.fava@gmail.com </a></li> <br><br>
+                                <div class="main-button-red">
+                                    <a href="{{ path('app_contact') }}">Me contacter</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordions is-first-expanded">
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>La Médiation c'est quoi?</span>
+                                <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Un processus mené par un tiers professionnel, neutre et indépendant (le médiateur), qui permet aux personnes (les médiés) dans un cadre sécurisé, de renouer le dialogue, de communiquer de manière plus apaisée et de trouver par elles-mêmes une issue au conflit qui les oppose.<br><br>
+
+                                        Il s’agit d’une démarche volontaire, libre et responsable des personnes.
+                                        Les personnes et le médiateur restent également libres d’arrêter la médiation à tout instant</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>La médiation à quel moments ?</span>
+                                <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p><a rel="nofollow" href="#" target="_blank">A tout moment</a> : avant, pendant ou après une procédure judiciaire.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Avant</a> toute action en justice, la médiation évite l’escalade du conflit.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Pendant</a> une instance judiciaire, la médiation peut être demandée par les parties ou ordonnée par le juge avec leur accord.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Après</a> une décision de justice, elle peut permettre de trouver ensemble d’autres solutions plus adaptées.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>Quels sont les avantages de la médiation ?</span>
+                                <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p><a rel="nofollow" href="#" target="_blank">Alternative</a> efficace à une procédure judiciaire.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Processus</a> volontaire, vous et le médiateur restez libres de commencer la médiation et de l’arrêter à tout instant.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Suspension</a> de toutes procédures judiciaires le temps de la médiation.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Tiers neutre</a>, si solution il y a, c’est votre solution.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Tiers impartial</a>, au soutien de chacun d’entre vous.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Intervention</a> sur mesure, souple, créative et rapide.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Coût maîtrisé</a>.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Discrétion et confidentialité</a> des échanges.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Préservation</a> des relations.<br>
+                                        <a rel="nofollow" href="#" target="_blank">Respect des besoins</a> et valeurs de chacun.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion last-accordion">
+                            <div class="accordion-head">
+                                <span>Quelle est la différence entre la médiation volontaire et la médiation judiciaire</span>
+                                <span class="icon">
+                        <i class="icon fa fa-chevron-right"></i>
+                    </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>La médiation peut être volontaire, elle est entamée à l’initiative des parties qui décident de tenter une médiation, sans l’intervention d’un juge.<br>
+
+                                        Elle peut aussi être judiciaire, le juge déjà saisi d‘un différend peut désigner un médiateur agréé à tout moment de la procédure, de sa propre initiative ou à la demande d’une ou des parties.<br>
+
+                                        Si toutes les parties s’y opposent, le juge ne peut ordonner une médiation.<br>
+
+                                        Cette démarche peut intervenir à tous les stades de la procédure judiciaire ; elle a pour conséquences de suspendre la procédure.<br>
+
+                                        Dans les deux cas, à l’issue de la médiation, si un accord est intervenu, les parties sont libres de demander au tribunal une homologation de leur accord afin de lui conférer la valeur d’un jugement, pour autant que le médiateur soit agréé.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
