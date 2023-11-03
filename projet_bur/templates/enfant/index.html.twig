@@ -1,20 +1,59 @@
-<!DOCTYPE html>
+{% extends 'layout/base.html.twig' %}
 
-<title>Hello EnfantController!</title>
+{% block title %}Médiateur couple{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <section class="section main-banner" id="top" data-section="section1">
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+        <a href="meeting-details.html"><img class="image" src="{{ asset('assets/assets/images/6.jpg') }}" alt="Online Teaching"></a>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'E:/Burotel/projet_bur/src/Controller/EnfantController.php'|file_link(0) }}">src/Controller/EnfantController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'E:/Burotel/projet_bur/templates/enfant/index.html.twig'|file_link(0) }}">templates/enfant/index.html.twig</a></code></li>
-    </ul>
-</div>
+    </section>
+
+    <section class="meetings-page" id="meetings">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="meeting-single-item">
+                                <div class="down-content">
+                                    <a href="meeting-details.html"><h4>Les enfants en médiation</h4></a>
+
+                                    <p class="description">
+                                        <b>L’accueil de l’enfant</b> dans la médiation de ses parents <b>permet</b> à votre enfant <b>de s’exprimer dans un espace sécurisé, de parler de ce qu’il vit en toute confiance, nommer ce qui est important pour lui, ce qui l’inquiète, ce qui lui fait du bien</b>.<br><br>
+
+                                        Elle donne aussi la <b>possibilité aux parents d’entendre et de mieux identifier les besoins de l’enfant pour les prendre en compte dans les décisions concernant leur séparation</b>. Cela a pour effet de les décentrer de leur conflit d’adultes au profit de l’enfant. Cela requiert l’accord des parents et de l’enfant.<br><br>
+
+                                        Le médiateur peut proposer d’accueillir l’enfant ou les enfants en médiation ;<br><br>
+
+                                        L’enfant seul ou la fratrie.<br><br>
+
+                                        Le médiateur <b>doit évaluer la pertinence de l’accueil et le moment</b>.<br><br>
+
+                                        Il doit vérifier la capacité des parents à contenir leur conflit devant l’enfant et à respecter quelques règles (notamment non-utilisation de la parole de l’enfant pendant et hors de l’espace de médiation).<br><br>
+
+                                        Une séance peut suffire. Le médiateur peut décider d’intervenir en co-médiation avec un psychothérapeute.<br><br>
+
+                                        Il est important que les parents préparent l’enfant à sa rencontre avec le médiateur et le rassurent.<br><br>
+
+                                        Il est primordial qu’ils prennent conscience et expliquent à leur enfant que <b>ce qu’il va exprimer en médiation n’est pas décisionnel dans le processus de médiation</b>.<br><br>
+
+                                        Le médiateur va utiliser différents outils, la parole, le jeu, le dessin pour le mettre à l’aise, l’aider à s’exprimer ; il s’ajuste à l’âge de l’enfant.<br><br>
+
+                                        Lui et l’enfant décident ensemble de ce qui va être rapporté aux parents et la manière dont cela sera fait : par <b>le médiateur</b> ou par l’enfant avec l’aide du médiateur. Le médiateur pourra être son porte-parole. Il <b>veillera toujours à le protéger dans sa place d’enfant</b>.
+                                    </p>
+
+                                    <div class="col-lg-12">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 {% endblock %}

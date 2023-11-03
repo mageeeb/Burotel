@@ -120,11 +120,13 @@ img {
 }
 .image{
   min-width: 100%;
-  min-height: 100vh;
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 80vh;
+  height: auto;
   object-fit: cover;
   z-index: -1;
+  /*padding-top: 80px;*/
+
 }
 .imgs{
   width: 80%;
@@ -157,6 +159,7 @@ body {
   html, body {
     overflow-x: hidden;
   }
+
   .mobile-top-fix {
     margin-top: 30px;
     margin-bottom: 0px;
@@ -1545,7 +1548,7 @@ section.meetings-page {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 140px;
+  /*padding-top: 140px;*/
   padding-bottom: 0px;
 }
 

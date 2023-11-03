@@ -1,20 +1,46 @@
-<!DOCTYPE html>
+{% extends 'layout/base.html.twig' %}
 
-<title>Hello ParentGrandPController!</title>
+{% block title %}Médiateur & séparation{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <section class="section main-banner" id="top" data-section="section1">
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+        <a href="meeting-details.html"><img class="image" src="{{ asset('assets/assets/images/4.jpg') }}" alt="Online Teaching"></a>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'E:/Burotel/projet_bur/src/Controller/ParentGrandPController.php'|file_link(0) }}">src/Controller/ParentGrandPController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'E:/Burotel/projet_bur/templates/parent_grand_p/index.html.twig'|file_link(0) }}">templates/parent_grand_p/index.html.twig</a></code></li>
-    </ul>
-</div>
+    </section>
+
+    <section class="meetings-page" id="meetings">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="meeting-single-item">
+
+                                <div class="down-content">
+                                    <a href="meeting-details.html"><h4>Médiation parents/grands parents</h4></a>
+
+                                    <p class="description">
+                                        Vous êtes <b> grands-parents</b> en conflit avec votre enfant et ne pouvez plus être en lien avec vos petits-enfants ou inversement vous êtes en conflit avec vos parents ou beaux-parents et n’êtes plus en confiance pour confier votre enfant.
+                                        La médiation familiale peut permettre l’apaisement et de retrouver des liens plus sereins où chacun est à sa juste place avec respect et bienveillance.<br><br>
+
+                                        La médiation favorise une relation transgénérationnelle dans la paix.<br><br>
+
+                                        Elle aide également à clarifier les besoins de chacun, à expérimenter des reprises de lien, à prendre le temps de se sécuriser, à tendre à des relations apaisées et de confiance.<br><br>
+
+                                        L’enfant sera ainsi libre d’appartenir et de vivre dans une famille où il a sa place tant dans ses racines paternelles que maternelles sans conflit de loyauté.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
 {% endblock %}
